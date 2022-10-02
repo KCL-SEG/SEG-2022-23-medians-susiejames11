@@ -11,6 +11,7 @@ while True:
         break
 print(numbers)
 
+numbers.sort()
 sum = len(numbers)
 median = 0
 if(sum%2) == 0:
